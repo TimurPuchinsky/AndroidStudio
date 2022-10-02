@@ -29,7 +29,7 @@
             <Button
                 android:id="@+id/butClear"
                 android:text="Clear"
-                android:height="60sp"
+                android:height="80sp"
                 android:width="30sp"
                 android:layout_weight="1"
                 android:layout_marginRight="1sp"
@@ -37,7 +37,7 @@
             <Button
                 android:id="@+id/butPlusMinus"
                 android:text="+/-"
-                android:height="60sp"
+                android:height="80sp"
                 android:width="30sp"
                 android:layout_weight="1"
                 android:layout_marginRight="1sp"
@@ -45,7 +45,7 @@
             <Button
                 android:id="@+id/butDivide"
                 android:text="/"
-                android:height="60sp"
+                android:height="80sp"
                 android:width="30sp"
                 android:layout_weight="1"
                 android:layout_marginRight="1sp"
@@ -53,7 +53,7 @@
             <Button
                 android:id="@+id/butMultiply"
                 android:text="*"
-                android:height="60sp"
+                android:height="80sp"
                 android:width="30sp"
                 android:layout_weight="1"
                 android:layout_marginRight="1sp"
@@ -64,24 +64,27 @@
             android:layout_height="match_parent">
             <Button
                 android:id="@+id/but7"
+                android:onClick="clickNumber"
                 android:text="7"
-                android:height="60sp"
+                android:height="80sp"
                 android:width="30sp"
                 android:layout_weight="1"
                 android:layout_marginRight="1sp"
                 />
             <Button
                 android:id="@+id/but8"
+                android:onClick="clickNumber"
                 android:text="8"
-                android:height="60sp"
+                android:height="80sp"
                 android:width="30sp"
                 android:layout_weight="1"
                 android:layout_marginRight="1sp"
                 />
             <Button
                 android:id="@+id/but9"
+                android:onClick="clickNumber"
                 android:text="9"
-                android:height="60sp"
+                android:height="80sp"
                 android:width="30sp"
                 android:layout_weight="1"
                 android:layout_marginRight="1sp"
@@ -89,7 +92,7 @@
             <Button
                 android:id="@+id/butPercent"
                 android:text="%"
-                android:height="60sp"
+                android:height="80sp"
                 android:width="30sp"
                 android:layout_weight="1"
                 android:layout_marginRight="1sp"
@@ -100,24 +103,27 @@
             android:layout_height="match_parent">
             <Button
                 android:id="@+id/but4"
+                android:onClick="clickNumber"
                 android:text="4"
-                android:height="60sp"
+                android:height="80sp"
                 android:width="30sp"
                 android:layout_weight="1"
                 android:layout_marginRight="1sp"
                 />
             <Button
                 android:id="@+id/but5"
+                android:onClick="clickNumber"
                 android:text="5"
-                android:height="60sp"
+                android:height="80sp"
                 android:width="30sp"
                 android:layout_weight="1"
                 android:layout_marginRight="1sp"
                 />
             <Button
                 android:id="@+id/but6"
+                android:onClick="clickNumber"
                 android:text="6"
-                android:height="60sp"
+                android:height="80sp"
                 android:width="30sp"
                 android:layout_weight="1"
                 android:layout_marginRight="1sp"
@@ -125,7 +131,7 @@
             <Button
                 android:id="@+id/butPlus"
                 android:text="+"
-                android:height="60sp"
+                android:height="80sp"
                 android:width="30sp"
                 android:layout_weight="1"
                 android:layout_marginRight="1sp"
@@ -136,24 +142,27 @@
             android:layout_height="match_parent">
             <Button
                 android:id="@+id/but1"
+                android:onClick="clickNumber"
                 android:text="1"
-                android:height="60sp"
+                android:height="80sp"
                 android:width="30sp"
                 android:layout_weight="1"
                 android:layout_marginRight="1sp"
                 />
             <Button
                 android:id="@+id/but2"
+                android:onClick="clickNumber"
                 android:text="2"
-                android:height="60sp"
+                android:height="80sp"
                 android:width="30sp"
                 android:layout_weight="1"
                 android:layout_marginRight="1sp"
                 />
             <Button
                 android:id="@+id/but3"
+                android:onClick="clickNumber"
                 android:text="3"
-                android:height="60sp"
+                android:height="80sp"
                 android:width="30sp"
                 android:layout_weight="1"
                 android:layout_marginRight="1sp"
@@ -161,7 +170,7 @@
             <Button
                 android:id="@+id/butMinus"
                 android:text="-"
-                android:height="60sp"
+                android:height="80sp"
                 android:width="30sp"
                 android:layout_weight="1"
                 android:layout_marginRight="1sp"
@@ -172,8 +181,9 @@
             android:layout_height="match_parent">
             <Button
                 android:id="@+id/but0"
+                android:onClick="clickNumber"
                 android:text="0"
-                android:height="60sp"
+                android:height="80sp"
                 android:width="30sp"
                 android:layout_weight="8.5"
                 android:layout_marginRight="1sp"
@@ -181,7 +191,7 @@
             <Button
                 android:id="@+id/butDot"
                 android:text="."
-                android:height="60sp"
+                android:height="80sp"
                 android:width="30sp"
                 android:layout_weight="1"
                 android:layout_marginRight="1sp"
@@ -189,7 +199,7 @@
             <Button
                 android:id="@+id/butEqual"
                 android:text="="
-                android:height="60sp"
+                android:height="80sp"
                 android:width="30sp"
                 android:layout_weight="1"
                 android:layout_marginRight="1sp"
