@@ -28,6 +28,7 @@
             android:layout_height="match_parent">
             <Button
                 android:id="@+id/butClear"
+                android:onClick="clickClear"
                 android:text="Clear"
                 android:height="80sp"
                 android:width="30sp"
@@ -36,6 +37,7 @@
             />
             <Button
                 android:id="@+id/butPlusMinus"
+                android:onClick="clickNumber"
                 android:text="+/-"
                 android:height="80sp"
                 android:width="30sp"
@@ -44,6 +46,7 @@
                 />
             <Button
                 android:id="@+id/butDivide"
+                android:onClick="operation"
                 android:text="/"
                 android:height="80sp"
                 android:width="30sp"
@@ -52,6 +55,7 @@
                 />
             <Button
                 android:id="@+id/butMultiply"
+                android:onClick="operation"
                 android:text="*"
                 android:height="80sp"
                 android:width="30sp"
@@ -91,6 +95,7 @@
                 />
             <Button
                 android:id="@+id/butPercent"
+                android:onClick="operation"
                 android:text="%"
                 android:height="80sp"
                 android:width="30sp"
@@ -130,6 +135,7 @@
                 />
             <Button
                 android:id="@+id/butPlus"
+                android:onClick="operation"
                 android:text="+"
                 android:height="80sp"
                 android:width="30sp"
@@ -169,6 +175,7 @@
                 />
             <Button
                 android:id="@+id/butMinus"
+                android:onClick="operation"
                 android:text="-"
                 android:height="80sp"
                 android:width="30sp"
@@ -190,6 +197,7 @@
                 />
             <Button
                 android:id="@+id/butDot"
+                android:onClick="clickNumber"
                 android:text="."
                 android:height="80sp"
                 android:width="30sp"
@@ -198,6 +206,7 @@
                 />
             <Button
                 android:id="@+id/butEqual"
+                android:onClick="clickEqual"
                 android:text="="
                 android:height="80sp"
                 android:width="30sp"
